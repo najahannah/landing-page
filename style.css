@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid pink;
-}
+} */
 
 body {
     display: flex;
@@ -41,16 +41,11 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
-    padding: 16px 128px;
+    padding: 64px 128px;
 }
 
 .hero-left {
-    flex-basis: 50%;
-}
-
-.hero-right {
-    flex-basis: 50%;
-    /* needs work so img doesn't warp */
+    padding-right: 32px;
 }
 .main-text {
     color: #f9faf8;
@@ -62,4 +57,12 @@ a {
     color: #e5e7eb;
     font-weight: 18px;
     margin-bottom: 8px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: none;
 }
