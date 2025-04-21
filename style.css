@@ -66,3 +66,37 @@ a {
     padding: 8px 24px;
     border: none;
 }
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+}
+
+.container {
+    display: flex;
+    gap: 36px;
+    padding: 0 256px;
+}
+
+.info img {
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+    border: 2px solid #3882f6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.information {
+    padding-bottom: 36px;
+}
