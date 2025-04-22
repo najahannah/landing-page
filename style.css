@@ -1,6 +1,9 @@
-/* * {
-    border: 1px solid pink;
-} */
+* {
+    /* border: 1px solid pink; */
+    /* border: 0; */
+    margin: 0;
+    padding: 0;
+}
 
 body {
     display: flex;
@@ -80,12 +83,13 @@ a {
     display: flex;
     gap: 36px;
     padding: 0 256px;
+    justify-content: center;
 }
 
 .info img {
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     margin: auto;
     border: 2px solid #3882f6;
@@ -98,5 +102,65 @@ a {
 }
 
 .information {
-    padding-bottom: 36px;
+    padding-bottom: 64px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 64px 256px
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    }
+
+.quote-thor {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    width: 800px;
+    height: 120px;
+    margin: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    box-sizing: border-box;
+}   
+
+.call {
+    font-weight: 700;
+}
+
+.sign {
+    font-size: smaller;
+}
+.cta-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px 0;
 }
